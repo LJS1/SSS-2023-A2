@@ -24,7 +24,7 @@ def package_install(pkg):
 def package_check_snyk():
     try:
         print("test")
-        result = subprocess.run(['snyk', 'test', "--file=actual_requirements.txt.txt", "--package-manager=pip", '--json'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+        result = subprocess.run(['snyk', 'test', "--file=actual_requirements.txt", "--package-manager=pip", '--json'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                                 shell=True)
         vulnerabilities = json.loads(result.stdout.decode('utf8'))['vulnerabilities']
         return vulnerabilities
