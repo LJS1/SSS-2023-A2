@@ -11,3 +11,16 @@
     a. Run `npm install -g snyk` to install snyk globally (requires node.js) 
 
 3. Run `python main.py`
+
+
+
+#### Bandit4Mal
+
+1. 
+
+
+
+??. To 
+
+
+#### Safety
