@@ -76,7 +76,6 @@ def parse_bandit_csv(file, date_info_dict):
             for row in csv_reader:
                 if row["issue_severity"] in ["NULL", "LOW", "MEDIUM", "HIGH", "CRITICAL"]:
                     issues_count += 1  
-                    print(issue_severity_count_dict.get(row["issue_severity"]))
                     
                     if (row["issue_severity"] in issue_severity_count_dict):
                         issue_severity_count_dict[row["issue_severity"]] = issue_severity_count_dict.get(row["issue_severity"]) + 1
@@ -153,7 +152,7 @@ def process_csv_files(results_folder, date_info_file):
             
             print(json.dumps(data, indent=2))
             
-            time.sleep(5)
+            # time.sleep(5)
 
         # print(data)
         return None
