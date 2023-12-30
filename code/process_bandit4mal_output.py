@@ -64,9 +64,9 @@ def parse_bandit_csv(file, date_info_dict):
 
         # Some date times might not be in the dict
         if (package_name, version_number) in date_info_dict:
-            date_time = date_info_dict[(package_name, version_number)]
+            published_date_time = date_info_dict[(package_name, version_number)]
         else:
-            date_time = {"date": None, "time": None}
+            published_date_time = {"date": None, "time": None}
         
         issues_count, issue_severity_count_dict = 0, {"NULL": 0, "LOW": 0, "MEDIUM": 0, "HIGH": 0, "CRITICAL": 0}
 
@@ -77,13 +77,14 @@ def parse_bandit_csv(file, date_info_dict):
                 if row["issue_severity"] in ["NULL", "LOW", "MEDIUM", "HIGH", "CRITICAL"]:
                     issues_count += 1  
                     
+                    # TODO: Redundant if, but can keep it here. Just wanted to get the code working and I was annoyed I think.
                     if (row["issue_severity"] in issue_severity_count_dict):
                         issue_severity_count_dict[row["issue_severity"]] = issue_severity_count_dict.get(row["issue_severity"]) + 1
                  
             json_structure = {
-                "package_name": package_name, #
-                "package_version": version_number, #
-                "datetime": date_time, #
+                "pkg_name": package_name, #
+                "pkg_version": version_number, #
+                "published": published_date_time, #
                 "num_issues": issues_count, # number of issues found by counting lines in csv
                 "issue_severity": issue_severity_count_dict,
             }  
@@ -181,7 +182,7 @@ def process_csv_files(results_folder, date_info_file):
 #     )
 #     return parser.parse_args()
 
-def main():
+def get_package_information():
     # args = parse_arguments()
     
     # if (args.results_folder == None and args.date_info_file == None)
@@ -205,4 +206,4 @@ def main():
     
 
 if __name__ == "__main__":
-    main()
+    get_package_information()
