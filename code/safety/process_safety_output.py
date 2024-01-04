@@ -68,8 +68,8 @@ def parse_safety_json_output(json_dict: dict, date_info_file: dict):
             severity        = str(entry["severity"]).upper() if entry["severity"] is not None else "NULL"
             issue_severity_count_dict = {"NULL": 0, "LOW": 0, "MEDIUM": 0, "HIGH": 0, "CRITICAL": 0}
             
-            if (package_name, version_number) in date_info_dict:
-                published_date_time = date_info_dict[(package_name, version_number)]
+            if (package_name.lower(), version_number) in date_info_dict:
+                published_date_time = date_info_dict[(package_name.lower(), version_number)]
             else:
                 published_date_time = {"date": None, "time": None}
                 

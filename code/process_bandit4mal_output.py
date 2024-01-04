@@ -63,8 +63,8 @@ def parse_bandit_csv(file, date_info_dict):
         package_name, version_number = results_file_name.split("==")
 
         # Some date times might not be in the dict
-        if (package_name, version_number) in date_info_dict:
-            published_date_time = date_info_dict[(package_name, version_number)]
+        if (package_name.lower(), version_number) in date_info_dict:
+            published_date_time = date_info_dict[(package_name.lower(), version_number)]
         else:
             published_date_time = {"date": None, "time": None}
         
@@ -125,7 +125,6 @@ def get_package_datetime_info(date_info_file):
                 version_number = row[1]
             
                 date_info_dict.update({(package_name, version_number): parse_timestamp(row[2])})
-
             return date_info_dict
     except FileNotFoundError as e:
         print(f"File not found: %s" % date_info_file)
