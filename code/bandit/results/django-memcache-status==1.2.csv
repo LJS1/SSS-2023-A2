@@ -1,0 +1,2 @@
+./memcache_status/tests/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'password',10,8,75,[10],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./memcache_status/tests/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'password',24,8,75,[24],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html

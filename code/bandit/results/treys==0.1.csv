@@ -1,0 +1,2 @@
+./treys/evaluator.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,136,8,54,[136],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./treys/evaluator.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,138,12,56,[138],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

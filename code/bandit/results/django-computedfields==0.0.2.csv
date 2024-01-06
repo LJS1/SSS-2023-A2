@@ -1,0 +1,1 @@
+./computedfields/models.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",94,16,24,"[94, 95]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html

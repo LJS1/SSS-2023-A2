@@ -1,0 +1,5 @@
+./inelegant/test/dict.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",64,8,16,"[64, 65]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./inelegant/test/dict.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",80,8,16,"[80, 81]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./inelegant/test/module.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",264,8,16,"[264, 265]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./inelegant/test/module.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",423,8,16,"[423, 424]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./inelegant/test/toggle.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",93,8,16,"[93, 94]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html

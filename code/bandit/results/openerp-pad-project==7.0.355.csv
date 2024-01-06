@@ -1,0 +1,1 @@
+./analytic.py,hardcoded_sql_expressions,B608,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/89.html,Possible SQL injection vector through string-based query construction.,81,19,17,"[81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]",https://bandit.readthedocs.io/en/1.7.6/plugins/b608_hardcoded_sql_expressions.html

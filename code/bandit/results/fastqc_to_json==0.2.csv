@@ -1,0 +1,2 @@
+./fastqc_to_json/main.py,blacklist,B404,LOW,HIGH,https://cwe.mitre.org/data/definitions/78.html,Consider possible security implications associated with the subprocess module.,6,0,17,[6],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b404-import-subprocess
+./fastqc_to_json/main.py,subprocess_popen_with_shell_equals_true,B602,HIGH,HIGH,https://cwe.mitre.org/data/definitions/78.html,"subprocess call with shell=True identified, security issue.",51,13,59,[51],https://bandit.readthedocs.io/en/1.7.6/plugins/b602_subprocess_popen_with_shell_equals_true.html

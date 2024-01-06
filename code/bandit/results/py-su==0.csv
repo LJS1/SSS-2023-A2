@@ -1,0 +1,1 @@
+./pysu/cli.py,start_process_with_no_shell,B606,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/78.html,Starting a process without a shell.,79,4,50,[79],https://bandit.readthedocs.io/en/1.7.6/plugins/b606_start_process_with_no_shell.html

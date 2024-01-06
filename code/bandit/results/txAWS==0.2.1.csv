@@ -1,0 +1,29 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_cwe,issue_text,line_number,col_offset,end_col_offset,line_range,more_info
+./txaws/client/base.py,blacklist,B405,LOW,HIGH,https://cwe.mitre.org/data/definitions/20.html,"Using ParseError to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ParseError with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",2,4,48,[2],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b405-import-xml-etree
+./txaws/client/discover/tests/test_entry_point.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'secret',104,19,42,[104],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./txaws/client/discover/tests/test_entry_point.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'fail',118,19,42,[118],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./txaws/credentials.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'AWS_SECRET_ACCESS_KEY',15,17,40,[15],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./txaws/credentials.py,hardcoded_password_default,B107,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '',27,4,66,"[27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]",https://bandit.readthedocs.io/en/1.7.6/plugins/b107_hardcoded_password_default.html
+./txaws/s3/tests/test_client.py,hardcoded_bind_all_interfaces,B104,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/605.html,Possible binding to all interfaces.,73,46,55,[73],https://bandit.readthedocs.io/en/1.7.6/plugins/b104_hardcoded_bind_all_interfaces.html
+./txaws/s3/tests/test_client.py,hardcoded_bind_all_interfaces,B104,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/605.html,Possible binding to all interfaces.,84,46,55,[84],https://bandit.readthedocs.io/en/1.7.6/plugins/b104_hardcoded_bind_all_interfaces.html
+./txaws/s3/tests/test_client.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'secretKey',95,21,59,"[95, 96]",https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./txaws/s3/tests/test_client.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'barsecretkey',560,12,76,[560],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./txaws/server/tests/test_resource.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,39,8,73,[39],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./txaws/service.py,hardcoded_password_default,B107,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '',98,4,72,"[98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115]",https://bandit.readthedocs.io/en/1.7.6/plugins/b107_hardcoded_password_default.html
+./txaws/testing/payload.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,"Possible hardcoded password: '<?xml version=""1.0""?>
+<Response>
+  <Errors>
+    <Error>
+      <Code>InvalidClientTokenId</Code>
+      <Message>The AWS Access Key Id you provided does not exist in our records.</Message>
+    </Error>
+  </Errors>
+  <RequestID>47bfd77d-78d6-446d-be0d-f7621795dded</RequestID>
+</Response>
+'",834,37,3,"[834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845]",https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./txaws/testing/service.py,hardcoded_password_default,B107,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '',10,4,52,"[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]",https://bandit.readthedocs.io/en/1.7.6/plugins/b107_hardcoded_password_default.html
+./txaws/tests/test_credentials.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'foo',37,18,50,[37],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./txaws/tests/test_service.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'quux',144,17,70,[144],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./txaws/tests/test_service.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'quux',152,17,52,"[152, 153]",https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./txaws/util.py,blacklist,B405,LOW,HIGH,https://cwe.mitre.org/data/definitions/20.html,"Using XMLTreeBuilder to parse untrusted XML data is known to be vulnerable to XML attacks. Replace XMLTreeBuilder with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",16,4,52,[16],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b405-import-xml-etree
+./txaws/util.py,blacklist,B303,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/327.html,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",25,13,22,[25],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b303-md5

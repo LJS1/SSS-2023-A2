@@ -1,0 +1,1 @@
+./genomes/__init__.py,hardcoded_sql_expressions,B608,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/89.html,Possible SQL injection vector through string-based query construction.,69,23,43,[69],https://bandit.readthedocs.io/en/1.7.6/plugins/b608_hardcoded_sql_expressions.html

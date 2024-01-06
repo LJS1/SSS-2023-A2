@@ -1,0 +1,2 @@
+./docformatter.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '',25,28,30,[25],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./docformatter.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,170,8,49,[170],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

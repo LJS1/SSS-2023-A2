@@ -1,0 +1,2 @@
+./test/test_permission.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'test',11,24,36,[11],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./test/test_storage.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'test',17,24,36,[17],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

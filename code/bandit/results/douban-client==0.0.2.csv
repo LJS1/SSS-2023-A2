@@ -1,0 +1,2 @@
+./tests/local_config.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '2a8f70e195a306e0',2,9,27,[2],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./tests/local_config.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '03a599c20b8585310af0cd4622908f93',20,8,42,[20],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

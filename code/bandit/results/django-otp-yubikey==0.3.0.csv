@@ -1,0 +1,1 @@
+./docs/source/conf.py,hardcoded_tmp_directory,B108,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/377.html,Probable insecure usage of temp file/directory.,42,20,44,"[40, 41, 42, 43]",https://bandit.readthedocs.io/en/1.7.6/plugins/b108_hardcoded_tmp_directory.html

@@ -1,0 +1,4 @@
+./setup.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",27,0,8,"[27, 28]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./setup.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,46,8,32,[46],https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html
+./src/tinbox_client/version.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,8,4,28,[8],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./src/tinbox_client/version.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,9,4,57,[9],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

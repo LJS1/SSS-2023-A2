@@ -1,0 +1,1 @@
+./secure_smtpd/fake_credential_validator.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'foobar',14,46,54,[14],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

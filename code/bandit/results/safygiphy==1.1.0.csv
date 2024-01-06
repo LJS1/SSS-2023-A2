@@ -1,0 +1,3 @@
+./safygiphy/__init__.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'dc6zaTOxFJmzC',13,15,30,[13],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./safygiphy/__init__.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,50,17,34,[50],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./safygiphy/__init__.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,112,17,34,[112],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

@@ -1,0 +1,1 @@
+./flatblocks/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'adminpwd',29,8,64,[29],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html

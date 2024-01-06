@@ -1,0 +1,4 @@
+./tvtid.py,hardcoded_tmp_directory,B108,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/377.html,Probable insecure usage of temp file/directory.,122,37,55,[122],https://bandit.readthedocs.io/en/1.7.6/plugins/b108_hardcoded_tmp_directory.html
+./tvtid.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,128,14,95,[128],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./tvtid.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,155,14,71,[155],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./tvtid.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,160,14,71,[160],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

@@ -1,0 +1,2 @@
+./mach9/app.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,288,12,33,"[288, 289, 290, 291]",https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./mach9/config.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,163,16,37,"[163, 164]",https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html

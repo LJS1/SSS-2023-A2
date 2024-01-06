@@ -1,0 +1,2 @@
+./blinker/_saferef.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,69,12,13,"[69, 70, 71, 72]",https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./blinker/base.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,445,8,34,[445],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

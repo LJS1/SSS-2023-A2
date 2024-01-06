@@ -1,0 +1,1 @@
+./dfgen/dockerfile.py,jinja2_autoescape_false,B701,HIGH,HIGH,https://cwe.mitre.org/data/definitions/94.html,"By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",151,28,9,"[151, 152, 153, 154, 155, 156]",https://bandit.readthedocs.io/en/1.7.6/plugins/b701_jinja2_autoescape_false.html

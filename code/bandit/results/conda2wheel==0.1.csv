@@ -1,0 +1,1 @@
+./conda2wheel/__init__.py,tarfile_unsafe_members,B202,HIGH,HIGH,https://cwe.mitre.org/data/definitions/22.html,tarfile.extractall used without any validation. Please check and discard dangerous members.,17,8,29,[17],https://bandit.readthedocs.io/en/1.7.6/plugins/b202_tarfile_unsafe_members.html

@@ -1,0 +1,2 @@
+./desolver/differentialsystem.py,blacklist,B307,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of possibly insecure function - consider using safer ast.literal_eval.,61,12,25,[61],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b307-eval
+./desolver/differentialsystem.py,blacklist,B307,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of possibly insecure function - consider using safer ast.literal_eval.,121,11,47,[121],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b307-eval

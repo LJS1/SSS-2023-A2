@@ -1,0 +1,2 @@
+./pyecoplug/discovery.py,hardcoded_bind_all_interfaces,B104,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/605.html,Possible binding to all interfaces.,31,26,35,[31],https://bandit.readthedocs.io/en/1.7.6/plugins/b104_hardcoded_bind_all_interfaces.html
+./pyecoplug/plug.py,blacklist,B311,LOW,HIGH,https://cwe.mitre.org/data/definitions/330.html,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,99,14,38,[99],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b311-random

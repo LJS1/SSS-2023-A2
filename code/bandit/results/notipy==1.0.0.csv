@@ -1,0 +1,2 @@
+./notipy/cli.py,start_process_with_a_shell,B605,HIGH,HIGH,https://cwe.mitre.org/data/definitions/78.html,"Starting a process with a shell, possible injection detected, security issue.",19,12,117,[19],https://bandit.readthedocs.io/en/1.7.6/plugins/b605_start_process_with_a_shell.html
+./notipy/cli.py,start_process_with_a_shell,B605,HIGH,HIGH,https://cwe.mitre.org/data/definitions/78.html,"Starting a process with a shell, possible injection detected, security issue.",21,12,57,[21],https://bandit.readthedocs.io/en/1.7.6/plugins/b605_start_process_with_a_shell.html

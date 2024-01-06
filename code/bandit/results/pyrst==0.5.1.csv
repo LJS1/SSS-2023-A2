@@ -1,0 +1,1 @@
+./pyrst/client.py,yaml_load,B506,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/20.html,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,56,31,44,[56],https://bandit.readthedocs.io/en/1.7.6/plugins/b506_yaml_load.html

@@ -1,0 +1,2 @@
+./test_basicauth.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'matrix',17,19,40,[17],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./test_basicauth.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'matrix:',99,24,45,[99],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

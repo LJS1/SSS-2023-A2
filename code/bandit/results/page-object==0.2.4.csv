@@ -1,0 +1,1 @@
+./page_object/browser_factory.py,blacklist,B307,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of possibly insecure function - consider using safer ast.literal_eval.,26,21,64,[26],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b307-eval

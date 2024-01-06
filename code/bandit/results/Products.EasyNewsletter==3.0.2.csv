@@ -1,0 +1,3 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_cwe,issue_text,line_number,col_offset,end_col_offset,line_range,more_info
+./Products/EasyNewsletter/tests/test_utils.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'Password',48,39,50,[48],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./Products/EasyNewsletter/tests/test_utils.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'Password',58,33,44,[58],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

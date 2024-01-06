@@ -1,0 +1,4 @@
+./sumologic/collectors.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,52,18,72,[52],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./sumologic/collectors.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,84,18,54,[84],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./sumologic/collectors.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,107,18,51,[107],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./sumologic/search.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,69,14,73,[69],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

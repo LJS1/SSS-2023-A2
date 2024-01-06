@@ -1,0 +1,2 @@
+./picky/handlers.py,blacklist,B404,LOW,HIGH,https://cwe.mitre.org/data/definitions/78.html,Consider possible security implications associated with the subprocess module.,4,0,34,[4],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b404-import-subprocess
+./picky/handlers.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,https://cwe.mitre.org/data/definitions/78.html,subprocess call - check for execution of untrusted input.,35,18,72,[35],https://bandit.readthedocs.io/en/1.7.6/plugins/b603_subprocess_without_shell_equals_true.html

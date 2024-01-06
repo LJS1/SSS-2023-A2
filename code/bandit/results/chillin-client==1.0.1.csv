@@ -1,0 +1,1 @@
+./chillin_client/network.py,ssl_with_no_version,B504,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/327.html,"ssl.wrap_socket call with no SSL/TLS protocol version specified, the default SSLv23 could be insecure, possible security issue.",20,15,47,[20],https://bandit.readthedocs.io/en/1.7.6/plugins/b504_ssl_with_no_version.html

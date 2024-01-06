@@ -1,0 +1,2 @@
+./ashes.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,623,8,30,[623],https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html
+./ashes.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,625,8,39,[625],https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html

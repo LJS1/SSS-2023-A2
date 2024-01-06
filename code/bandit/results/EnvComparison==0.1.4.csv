@@ -1,0 +1,2 @@
+./EnvComparison/connection.py,paramiko_calls,B601,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/78.html,"Possible shell injection via Paramiko call, check inputs are properly sanitized.",28,32,65,[28],https://bandit.readthedocs.io/en/1.7.6/plugins/b601_paramiko_calls.html
+./EnvComparison/connection.py,paramiko_calls,B601,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/78.html,"Possible shell injection via Paramiko call, check inputs are properly sanitized.",36,32,65,[36],https://bandit.readthedocs.io/en/1.7.6/plugins/b601_paramiko_calls.html

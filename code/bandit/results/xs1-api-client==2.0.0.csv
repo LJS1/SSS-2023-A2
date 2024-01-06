@@ -1,0 +1,2 @@
+./xs1_api_client/api.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,110,19,67,[110],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./xs1_api_client/api_constants.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'pwd',16,15,20,[16],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

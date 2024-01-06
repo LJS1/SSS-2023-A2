@@ -1,0 +1,2 @@
+./pep438/core.py,blacklist,B410,LOW,HIGH,https://cwe.mitre.org/data/definitions/20.html,Using lxml.html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.html with the equivalent defusedxml package.,5,0,16,[5],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b410-import-lxml
+./pep438/core.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,11,15,79,[11],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

@@ -1,0 +1,1 @@
+./setup.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,47,0,79,[47],https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html

@@ -1,0 +1,2 @@
+./setup.py,start_process_with_a_shell,B605,LOW,HIGH,https://cwe.mitre.org/data/definitions/78.html,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",17,4,45,[17],https://bandit.readthedocs.io/en/1.7.6/plugins/b605_start_process_with_a_shell.html
+./setup.py,start_process_with_partial_path,B607,LOW,HIGH,https://cwe.mitre.org/data/definitions/78.html,Starting a process with a partial executable path,17,4,45,[17],https://bandit.readthedocs.io/en/1.7.6/plugins/b607_start_process_with_partial_path.html

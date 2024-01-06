@@ -1,3 +1,0 @@
-./tenable_jira/cli.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '<REDACTED>',165,33,44,[165],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
-./tenable_jira/cli.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '<REDACTED>',174,40,52,[174],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
-./tenable_jira/cli.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '<REDACTED>',178,40,50,[178],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

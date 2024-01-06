@@ -1,0 +1,2 @@
+./gpm.py,blacklist,B403,LOW,HIGH,https://cwe.mitre.org/data/definitions/502.html,Consider possible security implications associated with cPickle module.,14,0,33,[14],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b403-import-pickle
+./gpm.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,105,8,77,[105],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

@@ -1,0 +1,2 @@
+./closeio_api/__init__.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,39,8,23,[39],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./closeio_api/__init__.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,63,12,61,[63],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

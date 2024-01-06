@@ -1,0 +1,1 @@
+./marshmallow/fields.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,1516,8,47,[1516],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

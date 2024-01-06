@@ -1,0 +1,3 @@
+./tvtid.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,125,14,95,[125],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./tvtid.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,152,14,71,[152],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./tvtid.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,157,14,71,[157],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

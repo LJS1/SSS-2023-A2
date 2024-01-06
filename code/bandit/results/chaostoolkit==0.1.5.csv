@@ -1,0 +1,2 @@
+./chaostoolkit/layers/applications/spring.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,8,8,25,[8],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./chaostoolkit/layers/platforms/k8s.py,yaml_load,B506,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/20.html,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,129,25,44,[129],https://bandit.readthedocs.io/en/1.7.6/plugins/b506_yaml_load.html

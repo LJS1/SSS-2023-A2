@@ -1,0 +1,2 @@
+./smaliemu/opcodes.py,blacklist,B307,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of possibly insecure function - consider using safer ast.literal_eval.,296,17,48,[296],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b307-eval
+./smaliemu/opcodes.py,blacklist,B307,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of possibly insecure function - consider using safer ast.literal_eval.,306,17,48,[306],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b307-eval

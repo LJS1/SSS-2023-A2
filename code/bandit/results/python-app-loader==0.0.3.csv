@@ -1,0 +1,5 @@
+./app_loader/base.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",175,24,32,"[175, 176]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./app_loader/base.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",258,12,20,"[258, 259]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./tests/local_settings.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",18,0,8,"[18, 19]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./tests/local_settings.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",37,0,8,"[37, 38]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./tests/local_settings.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'supersikret',59,13,26,[59],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

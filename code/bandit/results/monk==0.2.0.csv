@@ -1,0 +1,2 @@
+./monk/helpers.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,35,4,39,[35],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./monk/modeling.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,166,8,30,[166],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

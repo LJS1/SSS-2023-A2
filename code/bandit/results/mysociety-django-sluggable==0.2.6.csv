@@ -1,0 +1,2 @@
+./sluggable/fields.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,49,8,48,[49],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./sluggable/tests/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'blabla',27,13,21,[27],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

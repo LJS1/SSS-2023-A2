@@ -1,0 +1,2 @@
+./src/wpm/game.py,blacklist,B311,LOW,HIGH,https://cwe.mitre.org/data/definitions/330.html,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,23,21,46,[23],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b311-random
+./src/wpm/game.py,blacklist,B311,LOW,HIGH,https://cwe.mitre.org/data/definitions/330.html,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,171,21,46,[171],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b311-random

@@ -1,0 +1,2 @@
+./flatblocks/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'adminpwd',26,8,64,[26],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./test_project/settings.py,hardcoded_tmp_directory,B108,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/377.html,Probable insecure usage of temp file/directory.,4,16,36,[4],https://bandit.readthedocs.io/en/1.7.6/plugins/b108_hardcoded_tmp_directory.html

@@ -1,0 +1,4 @@
+./tests/bomb1.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,15,8,86,[15],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./tests/bomb1.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,19,8,33,[19],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./tests/bomb2.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,15,8,86,[15],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./tests/bomb2.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,19,8,33,[19],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

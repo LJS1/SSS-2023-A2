@@ -1,0 +1,1 @@
+./example/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'zl8n#*c2)rso==w@9ygsnpy&amp;0xpy5mkv15rxb5r+&amp;!e&amp;k&amp;-@fg',88,13,81,[88],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

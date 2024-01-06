@@ -1,0 +1,2 @@
+./shellwords/__init__.py,blacklist,B404,LOW,HIGH,https://cwe.mitre.org/data/definitions/78.html,Consider possible security implications associated with the subprocess module.,9,0,34,[9],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b404-import-subprocess
+./shellwords/__init__.py,subprocess_popen_with_shell_equals_true,B602,HIGH,HIGH,https://cwe.mitre.org/data/definitions/78.html,"subprocess call with shell=True identified, security issue.",23,8,60,[23],https://bandit.readthedocs.io/en/1.7.6/plugins/b602_subprocess_popen_with_shell_equals_true.html

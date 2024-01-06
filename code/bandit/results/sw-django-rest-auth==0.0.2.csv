@@ -1,0 +1,2 @@
+./sw_rest_auth/authentication.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,49,16,62,[49],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./sw_rest_auth/permissions.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,19,16,65,[19],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

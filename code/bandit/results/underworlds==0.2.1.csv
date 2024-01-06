@@ -1,0 +1,2 @@
+./scripts/3d_viewer_py3.py,blacklist,B311,LOW,HIGH,https://cwe.mitre.org/data/definitions/330.html,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,628,13,47,[628],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b311-random
+./scripts/transformations.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,1329,8,29,[1329],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html

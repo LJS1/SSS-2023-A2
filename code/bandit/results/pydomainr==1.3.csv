@@ -1,0 +1,2 @@
+./pydomainr/PyDomainr.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,23,23,48,[23],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./pydomainr/PyDomainr.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,35,23,46,[35],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

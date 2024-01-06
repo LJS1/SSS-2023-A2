@@ -1,0 +1,3 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_cwe,issue_text,line_number,col_offset,end_col_offset,line_range,more_info
+./sevenbridges/http/client.py,try_except_pass,B110,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Pass detected.",50,8,16,"[50, 51]",https://bandit.readthedocs.io/en/1.7.6/plugins/b110_try_except_pass.html
+./sevenbridges/transfer/download.py,blacklist,B303,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/327.html,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",180,50,44,"[180, 181]",https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b303-md5

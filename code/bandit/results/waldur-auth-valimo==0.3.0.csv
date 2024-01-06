@@ -1,0 +1,1 @@
+./src/waldur_auth_valimo/client.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,70,19,111,[70],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

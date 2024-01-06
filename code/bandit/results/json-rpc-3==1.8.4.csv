@@ -1,0 +1,1 @@
+./examples/simple/client.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,11,15,5,"[11, 12, 13, 14, 15]",https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

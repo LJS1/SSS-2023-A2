@@ -1,0 +1,2 @@
+./admin_enhancer/widgets.py,django_mark_safe,B703,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/80.html,Potential XSS on mark_safe function.,59,15,97,[59],https://bandit.readthedocs.io/en/1.7.6/plugins/b703_django_mark_safe.html
+./admin_enhancer/widgets.py,blacklist,B308,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/79.html,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,59,15,97,[59],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b308-mark-safe

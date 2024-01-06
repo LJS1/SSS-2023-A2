@@ -1,0 +1,1 @@
+./pygreen.py,hardcoded_bind_all_interfaces,B104,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/605.html,Possible binding to all interfaces.,108,23,32,[108],https://bandit.readthedocs.io/en/1.7.6/plugins/b104_hardcoded_bind_all_interfaces.html

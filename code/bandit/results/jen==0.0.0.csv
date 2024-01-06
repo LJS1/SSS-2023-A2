@@ -1,0 +1,1 @@
+./jen/template_renderer.py,jinja2_autoescape_false,B701,HIGH,MEDIUM,https://cwe.mitre.org/data/definitions/94.html,Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.,48,25,74,[48],https://bandit.readthedocs.io/en/1.7.6/plugins/b701_jinja2_autoescape_false.html

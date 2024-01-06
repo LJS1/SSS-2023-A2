@@ -1,0 +1,1 @@
+./stoneagehtml/stoneagehtml.py,try_except_continue,B112,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Continue detected.",511,12,24,"[511, 512]",https://bandit.readthedocs.io/en/1.7.6/plugins/b112_try_except_continue.html

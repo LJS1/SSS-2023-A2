@@ -1,0 +1,1 @@
+./influxdbnagiosplugin/resources.py,hardcoded_sql_expressions,B608,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/89.html,Possible SQL injection vector through string-based query construction.,47,15,83,[47],https://bandit.readthedocs.io/en/1.7.6/plugins/b608_hardcoded_sql_expressions.html

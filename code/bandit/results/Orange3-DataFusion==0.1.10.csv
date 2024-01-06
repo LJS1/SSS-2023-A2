@@ -1,0 +1,2 @@
+./baycomp/multiple.py,blacklist,B403,LOW,HIGH,https://cwe.mitre.org/data/definitions/502.html,Consider possible security implications associated with pickle module.,2,0,13,[2],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b403-import-pickle
+./baycomp/multiple.py,blacklist,B301,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/502.html,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",383,27,41,[383],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b301-pickle

@@ -1,0 +1,2 @@
+./mips/dbsettings_default.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '',5,11,13,[5],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./mips/dbsettings_default.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'set-secret-key-here',9,13,34,[9],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

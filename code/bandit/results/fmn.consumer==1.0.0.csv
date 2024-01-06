@@ -1,0 +1,2 @@
+./fmn/consumer/backends/android.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,35,17,26,"[35, 36, 37, 38]",https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./fmn/consumer/backends/irc.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,72,19,72,[72],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

@@ -1,0 +1,2 @@
+./pygreen.py,hardcoded_bind_all_interfaces,B104,MEDIUM,MEDIUM,https://cwe.mitre.org/data/definitions/605.html,Possible binding to all interfaces.,111,23,32,[111],https://bandit.readthedocs.io/en/1.7.6/plugins/b104_hardcoded_bind_all_interfaces.html
+./pygreen.py,flask_debug_true,B201,HIGH,MEDIUM,https://cwe.mitre.org/data/definitions/94.html,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",115,8,92,[115],https://bandit.readthedocs.io/en/1.7.6/plugins/b201_flask_debug_true.html

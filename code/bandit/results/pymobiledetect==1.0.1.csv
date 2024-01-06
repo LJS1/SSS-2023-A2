@@ -1,0 +1,1 @@
+./mobiledetect/detect.py,blacklist,B303,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/327.html,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",55,18,38,[55],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b303-md5

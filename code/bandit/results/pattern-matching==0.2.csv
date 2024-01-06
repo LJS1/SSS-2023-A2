@@ -1,0 +1,2 @@
+./Ruikowa/Core/BaseDef.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,101,8,29,[101],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./Ruikowa/ErrorHandler.py,try_except_continue,B112,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Continue detected.",50,20,32,"[50, 51]",https://bandit.readthedocs.io/en/1.7.6/plugins/b112_try_except_continue.html

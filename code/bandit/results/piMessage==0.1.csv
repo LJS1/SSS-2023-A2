@@ -1,0 +1,2 @@
+./piMessage/piMessage.py,start_process_with_a_shell,B605,HIGH,HIGH,https://cwe.mitre.org/data/definitions/78.html,"Starting a process with a shell, possible injection detected, security issue.",14,2,16,[14],https://bandit.readthedocs.io/en/1.7.6/plugins/b605_start_process_with_a_shell.html
+./piMessage/piMessage.py,start_process_with_a_shell,B605,HIGH,HIGH,https://cwe.mitre.org/data/definitions/78.html,"Starting a process with a shell, possible injection detected, security issue.",31,2,16,[31],https://bandit.readthedocs.io/en/1.7.6/plugins/b605_start_process_with_a_shell.html

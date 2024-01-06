@@ -1,0 +1,2 @@
+./twitter/api.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'https://api.twitter.com/oauth/request_token',13,25,70,[13],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./twitter/api.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'https://api.twitter.com/oauth/access_token',15,24,68,[15],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

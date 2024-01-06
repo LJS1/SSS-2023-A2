@@ -1,0 +1,1 @@
+./c2/backup/s3/main.py,yaml_load,B506,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/20.html,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,24,15,34,[24],https://bandit.readthedocs.io/en/1.7.6/plugins/b506_yaml_load.html

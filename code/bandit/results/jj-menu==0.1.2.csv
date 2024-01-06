@@ -1,0 +1,2 @@
+./jj_menu/jj_menu.py,blacklist,B404,LOW,HIGH,https://cwe.mitre.org/data/definitions/78.html,Consider possible security implications associated with the subprocess module.,12,0,17,[12],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b404-import-subprocess
+./jj_menu/jj_menu.py,subprocess_popen_with_shell_equals_true,B602,HIGH,HIGH,https://cwe.mitre.org/data/definitions/78.html,"subprocess call with shell=True identified, security issue.",222,18,61,[222],https://bandit.readthedocs.io/en/1.7.6/plugins/b602_subprocess_popen_with_shell_equals_true.html

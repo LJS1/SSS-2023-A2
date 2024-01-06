@@ -1,0 +1,2 @@
+./plato_cat/alerts/onealert.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,22,8,35,[22],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./plato_cat/sdk/regions.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,19,14,36,[19],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

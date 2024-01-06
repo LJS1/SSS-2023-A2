@@ -1,0 +1,2 @@
+./hallucination/__init__.py,blacklist,B311,LOW,HIGH,https://cwe.mitre.org/data/definitions/330.html,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,173,20,63,[173],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b311-random
+./hallucination/models.py,blacklist,B311,LOW,HIGH,https://cwe.mitre.org/data/definitions/330.html,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,70,21,49,[70],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b311-random

@@ -1,0 +1,2 @@
+./autobreadcrumbs/templatetags/autobreadcrumb.py,django_mark_safe,B703,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/80.html,Potential XSS on mark_safe function.,147,15,55,[147],https://bandit.readthedocs.io/en/1.7.6/plugins/b703_django_mark_safe.html
+./autobreadcrumbs/templatetags/autobreadcrumb.py,blacklist,B308,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/79.html,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,147,15,55,[147],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b308-mark-safe

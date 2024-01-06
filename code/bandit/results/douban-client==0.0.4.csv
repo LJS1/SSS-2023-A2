@@ -1,0 +1,3 @@
+./douban_client/client.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '',38,23,86,[38],https://bandit.readthedocs.io/en/1.7.6/plugins/b106_hardcoded_password_funcarg.html
+./tests/local_config.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '2a8f70e195a306e0',2,9,27,[2],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./tests/local_config.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '',20,8,10,[20],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

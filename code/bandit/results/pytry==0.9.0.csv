@@ -1,0 +1,2 @@
+./pytry/read.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,13,20,33,[13],https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html
+./pytry/read.py,try_except_continue,B112,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,"Try, Except, Continue detected.",14,16,28,"[14, 15]",https://bandit.readthedocs.io/en/1.7.6/plugins/b112_try_except_continue.html

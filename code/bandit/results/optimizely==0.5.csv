@@ -1,0 +1,2 @@
+./optimizely/client.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'legacy',53,34,42,[53],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html
+./optimizely/client.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: 'oauth',57,36,43,[57],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

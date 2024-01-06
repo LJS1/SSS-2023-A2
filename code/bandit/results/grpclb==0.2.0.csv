@@ -1,0 +1,1 @@
+./grpclb_balancer_v1/__init__.py,blacklist,B311,LOW,HIGH,https://cwe.mitre.org/data/definitions/330.html,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,31,19,34,[31],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b311-random

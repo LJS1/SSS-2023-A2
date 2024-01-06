@@ -1,0 +1,1 @@
+./src/zope/location/tests/test_location.py,blacklist,B403,LOW,HIGH,https://cwe.mitre.org/data/definitions/502.html,Consider possible security implications associated with pickle module.,317,8,21,[317],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_imports.html#b403-import-pickle

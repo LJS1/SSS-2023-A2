@@ -1,0 +1,4 @@
+./docs/conf.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,81,4,22,[81],https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html
+./invenio_documents/utils.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,56,8,36,[56],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./requirements.py,assert_used,B101,LOW,HIGH,https://cwe.mitre.org/data/definitions/703.html,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,136,8,20,[136],https://bandit.readthedocs.io/en/1.7.6/plugins/b101_assert_used.html
+./setup.py,exec_used,B102,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of exec detected.,87,4,22,[87],https://bandit.readthedocs.io/en/1.7.6/plugins/b102_exec_used.html

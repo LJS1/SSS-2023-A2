@@ -1,0 +1,1 @@
+./tests/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/259.html,Possible hardcoded password: '12345678',14,13,23,[14],https://bandit.readthedocs.io/en/1.7.6/plugins/b105_hardcoded_password_string.html

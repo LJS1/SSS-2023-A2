@@ -1,0 +1,3 @@
+./cbms/cbms.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,167,16,70,[167],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./cbms/cbms.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,209,16,66,[209],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html
+./cbms/cbms.py,request_without_timeout,B113,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/400.html,Requests call without timeout,232,20,69,[232],https://bandit.readthedocs.io/en/1.7.6/plugins/b113_request_without_timeout.html

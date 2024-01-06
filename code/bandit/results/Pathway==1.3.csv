@@ -1,0 +1,1 @@
+./pathway.py,start_process_with_no_shell,B606,LOW,MEDIUM,https://cwe.mitre.org/data/definitions/78.html,Starting a process without a shell.,350,12,39,[350],https://bandit.readthedocs.io/en/1.7.6/plugins/b606_start_process_with_no_shell.html

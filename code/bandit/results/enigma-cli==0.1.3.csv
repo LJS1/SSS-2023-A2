@@ -1,0 +1,2 @@
+./enigma_driver.py,blacklist,B307,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of possibly insecure function - consider using safer ast.literal_eval.,110,11,23,[110],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b307-eval
+./enigma_driver.py,blacklist,B307,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/78.html,Use of possibly insecure function - consider using safer ast.literal_eval.,111,38,50,[111],https://bandit.readthedocs.io/en/1.7.6/blacklists/blacklist_calls.html#b307-eval
