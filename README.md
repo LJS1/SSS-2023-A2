@@ -35,7 +35,7 @@ These were generated from ```list_libraries.csv```, which is the original datase
 
 NOTE: The currently present ```subset_data.csv``` and ```subset_requirements.txt``` were used by us for analysis. Running ```create_subset.py``` would overwrite those files and generate new datasets.
 
-5. Copy these two files in the bandit folder and the safety folder.
+5. Copy these two files in the bandit folder and the safety folder. Copy the ```subset_data.csv``` into the graphs folder.
 
 # Running Bandit4Mal
 
