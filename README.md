@@ -40,7 +40,7 @@ NOTE: The currently present ```subset_data.csv``` and ```subset_requirements.txt
 # Running Bandit4Mal
 
 1. With the ```subset_requirements.txt``` present in the local folder, run ```./bandit_run.sh```.
-2.  The script does for every package in the requirements file:
+2. The script does for every package in the requirements file:
     1. ```pip download {packagename}=={versionnr}```
     2. Extract its contents given a tar.gz or zip. If a whl is given, then it is renamed to zip, then extracted
     3. Move into the extracted folder
@@ -54,11 +54,15 @@ NOTE: The contents of the results folder are not deleted when running ```bandit_
 
 # Running Safety
 
-Instead of needing a script, running safety is a lot easier:
+As Safety only checks the latest version of a package in a given input file, we circumvent this by grabbing one version per package, running Safety on that package list, save the output and repeat:
 
-```
-safety check -r subset_requirements.txt --output json > safety_set.json
-```
+1. With the ```subset_requirements.txt``` present in the local folder, run ```./safety_run.sh```.
+2. Repeat until the generated package list is empty
+     1. Get index'th package version of each package
+     2. Echo the list and forward to Safety
+     3. Save the output to a variable
+3. Format all data to JSON
+4. Save to a .json file
 
 For the next step, make sure that either this command is run inside the safety folder or that the .json is moved into the safety folder for preprocessing.
 
