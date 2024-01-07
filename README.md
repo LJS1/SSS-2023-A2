@@ -68,19 +68,19 @@ For the next step, make sure that either this command is run inside the safety f
 
 ### Bandit4mal
 
-After running Bandit4mal, we end up with a results folder with lots of .csv files. We can preprocess these by running the ```process_bandit4mal_output.py``` file. This scans for all csv files present in the results folder and formats them to json. The output is a file named ```bandit_results.json```, which can be used for generating the graphs.
+After running Bandit4mal, we end up with a results folder with lots of .csv files. We can preprocess these by running the ```process_bandit4mal_output.py``` file. This script does require the ```list_libraries.csv``` to be present to fix any lost dates during the run. The script scans for all csv files present in the results folder and formats them to json. The output is a file named ```bandit_results.json```, which can be used for generating the graphs.
 
-Make sure to copy/move this file into the graphs folder.
+Make sure to copy/move this ```bandit_results.json``` into the graphs folder.
 
 ### Safety 
 
-After running Safety, we end up with a ```safety_set.json``` file. We can preprocess this file with ```process_safety_output.py``` to format it in the same structure as the bandit json, such that we can reuse graph generation code easily. To structurise our data for graph generation, we get rid of all vulnerability information, except the severity level, date and version of the package.
+After running Safety, we end up with a ```safety_set.json``` file. We can preprocess this file with ```process_safety_output.py``` to format it in the same structure as the bandit json, such that we can reuse graph generation code easily. Just like Bandit, this script does require the ```list_libraries.csv``` to be present to fix the lost dates. To structurise our data in the generated ```safety_results.json``` for graph generation, we get rid of all vulnerability information, except the severity level, date and version of the package.
 
-Make sure to copy/move this file into the graphs folder.
+Make sure to copy/move ```safety_results.json``` into the graphs folder.
 
 ## Generating graphs
 
-Inside the graphs folder, there is a notebook file ```security_plots.ipynb```, which contains all the code we used to generate various graphs. Ensure that the ```bandit_results.json``` and ```safety_results.json``` files are present in the graphs folder. 
+Inside the graphs folder, there is a notebook file ```security_plots.ipynb```, which contains all the code we used to generate various graphs. Ensure that the ```subset_data.csv```, ```bandit_results.json``` and ```safety_results.json``` files are present in the graphs folder. 
 
 # Repo structure
 
@@ -102,6 +102,7 @@ The repository contains the following files in the ```code``` directory:
             - ```results``` (can be generated)
     - safety
         - Scripts
+            - ```safety_run.sh```
             - ```process_safety_output.py```
         - Data
             - ```safety_set.json``` (can be generated)
